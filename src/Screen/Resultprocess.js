@@ -79,7 +79,7 @@ const Resultprocess = ({data}) => {
       return (
         <View style={resultStyle.boxNotAvailable}>
           <Text style={resultStyle.textNotAvail}>
-            Maaf, jadwal penerbangan tidak ditemukan
+            Maaf, jadwal penerbangan tujuan anda tidak ditemukan
           </Text>
           <MaterialCommunityIcons
             style={resultStyle.userIcon}
@@ -108,12 +108,14 @@ const resultStyle = StyleSheet.create({
     marginTop: 10,
   },
   boxNotAvailable: {
-    backgroundColor: 'black',
+    backgroundColor: 'white',
     borderRadius: 10,
     padding: 10,
     width: '80%',
     left: '10%',
-    shadowColor: '#000',
+    marginTop: -70,
+    marginBottom: 50,
+    // shadowColor: '#000',
     elevation: 5,
     top: '100%',
     alignItems: 'center',

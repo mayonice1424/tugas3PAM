@@ -15,7 +15,7 @@ const Footer = () => {
 
 const gayafooter = StyleSheet.create({
   textfooter: {
-    marginTop: 80,
+    marginTop: 60,
     fontFamily: 'Open Sans',
     fontSize: 17,
     fontWeight: '500',
