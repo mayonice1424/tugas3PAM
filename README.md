@@ -23,16 +23,32 @@ Hasilnya akan mengarahkan ke page ResultSearchPage
 
 ![Resultpage benar](/SS/Resultpage%20benar.jpeg)
 
+
+
 Dan jika data yang diinputkan tidak sesuai dengan file db.js maka akan bernilai salah 
 
+
+
 Seperti percobaan salah berikut :
+
+
 
 ![Homepage salah](/SS/Homepage%20salah.jpeg)
 
 
+
+
+
+
+
+
 dan hasilnya adalah sebagai berikut :
 
+
+
 ![Resultpage salah](/SS/Resultpage%20salah.jpeg)
+
+
 
 
 Data yang diinputkan dapat dilihat di: (/src/db/db.js)
