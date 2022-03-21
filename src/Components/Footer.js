@@ -20,6 +20,7 @@ const gayafooter = StyleSheet.create({
     fontSize: 17,
     fontWeight: '500',
     textAlign: 'center',
+    color: '#65679B',
   },
 });
 

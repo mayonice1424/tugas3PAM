@@ -55,7 +55,7 @@ const Resultprocess = ({data}) => {
                 <Text style={resultStyle.text}>
                   {capitalizeTheFirstLetterOfEachWord(data.keberangkatan)}
                 </Text>
-                <Text style={resultStyle.text}> --> </Text>
+                <Text style={resultStyle.text}> -> </Text>
                 <Text style={resultStyle.text}>
                   {capitalizeTheFirstLetterOfEachWord(data.tujuan)}
                 </Text>
@@ -77,7 +77,7 @@ const Resultprocess = ({data}) => {
       });
     } else {
       return (
-        <View style={resultStyle.boxNotAvail}>
+        <View style={resultStyle.boxNotAvailable}>
           <Text style={resultStyle.textNotAvail}>
             Maaf, jadwal penerbangan tidak ditemukan
           </Text>
@@ -99,17 +99,16 @@ const resultStyle = StyleSheet.create({
     alignItems: 'center',
   },
   kotak: {
-    backgroundColor: '#fff',
+    backgroundColor: '#ffffff',
     borderRadius: 20,
     padding: 10,
     width: '85%',
     left: '10%',
-    shadowColor: '#000',
     elevation: 7,
     marginTop: 10,
   },
-  boxNotAvail: {
-    backgroundColor: '#fff',
+  boxNotAvailable: {
+    backgroundColor: 'black',
     borderRadius: 10,
     padding: 10,
     width: '80%',
@@ -123,6 +122,7 @@ const resultStyle = StyleSheet.create({
     textAlign: 'center',
     fontSize: 15,
     fontFamily: 'poppins',
+    color: '#65679B',
   },
   userIcon: {
     marginTop: 25,
@@ -134,6 +134,7 @@ const resultStyle = StyleSheet.create({
     justifyContent: 'space-between',
     marginLeft: 30,
     marginRight: 30,
+    color: '#65679B',
   },
   bodyBox: {
     marginTop: 10,
@@ -149,9 +150,11 @@ const resultStyle = StyleSheet.create({
     justifyContent: 'space-between',
     marginLeft: 30,
     marginRight: 30,
+    color: '#65679B',
   },
   text: {
     fontWeight: 'bold',
+    color: '#65679B',
   },
   textOnBox: {
     fontWeight: 'bold',

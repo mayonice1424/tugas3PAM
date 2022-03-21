@@ -27,6 +27,8 @@ const Form = ({navigation}) => {
           <TextInput
             style={gayaform.textinput}
             placeholder="Masukkan datang "
+            placeholderTextColor={'#65679B'}
+            color="#65679B"
             value={text.keberangkatan}
             onChangeText={clickHandler('keberangkatan')}
           />
@@ -36,7 +38,9 @@ const Form = ({navigation}) => {
           <TextInput
             style={gayaform.textinput}
             placeholder="Masukkan tujuan "
+            placeholderTextColor={'#65679B'}
             value={text.tujuan}
+            color="#65679B"
             onChangeText={clickHandler('tujuan')}
           />
         </View>
@@ -45,6 +49,8 @@ const Form = ({navigation}) => {
           <TextInput
             style={gayaform.textinput}
             placeholder="Masukkan jadwal "
+            placeholderTextColor={'#65679B'}
+            color="#65679B"
             onChangeText={clickHandler('tanggal')}
             value={text.tanggal}
           />
