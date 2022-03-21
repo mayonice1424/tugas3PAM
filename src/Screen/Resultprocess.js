@@ -77,7 +77,7 @@ const Resultprocess = ({data}) => {
       });
     } else {
       return (
-        <View style={resultStyle.boxNotAvail}>
+        <View style={resultStyle.boxNotAvailable}>
           <Text style={resultStyle.textNotAvail}>
             Maaf, jadwal penerbangan tidak ditemukan
           </Text>
@@ -99,12 +99,11 @@ const resultStyle = StyleSheet.create({
     alignItems: 'center',
   },
   kotak: {
-    backgroundColor: '#fff',
+    backgroundColor: '#ffffff',
     borderRadius: 20,
     padding: 10,
     width: '85%',
     left: '10%',
-    shadowColor: '#000',
     elevation: 7,
     marginTop: 10,
   },
