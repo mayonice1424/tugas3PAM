@@ -26,10 +26,12 @@ Hasilnya akan mengarahkan ke page ResultSearchPage
 Dan jika data yang diinputkan tidak sesuai dengan file db.js maka akan bernilai salah 
 
 Seperti percobaan salah berikut :
+
 ![Homepage salah](/SS/Homepage%20salah.jpeg)
 
 
 dan hasilnya adalah sebagai berikut :
+
 ![Resultpage salah](/SS/Resultpage%20salah.jpeg)
 
 
